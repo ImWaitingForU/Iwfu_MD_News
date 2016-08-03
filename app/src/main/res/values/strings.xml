@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Iwfu_MD_News</string>
+    <string name="action_search">action_search</string>
+    <string name="action_share">action_share</string>
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

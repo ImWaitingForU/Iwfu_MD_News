@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:checked="true"
+            android:icon="@mipmap/xiaoxi"
+            android:id="@+id/menu_item1_group1"
+            android:title="新闻"/>
+        <item
+            android:icon="@mipmap/shoucang"
+            android:id="@+id/menu_item2_group1"
+            android:title="消息"/>
+        <item
+            android:icon="@mipmap/youxi"
+            android:id="@+id/menu_item3_group1"
+            android:title="游戏"/>
+
+    </group>
+
+    <group android:id="@+id/group2"
+           android:checkableBehavior="single">
+
+        <item
+            android:icon="@mipmap/tucao"
+            android:id="@+id/menu_item1_group2"
+            android:title="吐个槽"/>
+        <item
+            android:icon="@mipmap/gengduo"
+            android:id="@+id/menu_item2_group2"
+            android:title="更多"/>
+
+    </group>
+</menu>

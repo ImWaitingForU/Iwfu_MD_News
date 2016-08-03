@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_navigation_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/banzang"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/iv_navigation_header"
+        android:id="@+id/tv_des_navigation_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="龙啊吞噬我的敌人吧!!"
+        android:textColor="#ffffff"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_name_navigation_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="半藏"
+        android:layout_above="@id/tv_des_navigation_header"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="25sp"/>
+
+
+
+</RelativeLayout>
+
+
